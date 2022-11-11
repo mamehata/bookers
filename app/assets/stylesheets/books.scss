@@ -1,3 +1,47 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.show-box{
+  margin: 30px;
+}
+
+.show-title-box{
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+.show-title{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.show-title-comment{
+  display: inline-block;
+}
+
+.show-body-box{
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+
+.show-body{
+  display: inline-block;
+  font-weight: bold;
+}
+
+.show-body-comment{
+  display: inline-block;
+}
+
+.show-link-edit{
+  color: #111;
+}
+
+.show-link-border{
+  display: inline-block;
+  color: #666;
+}
+
+.show-link-back{
+  color: #666;
+}

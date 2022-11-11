@@ -1,3 +1,23 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.homes-box{
+  margin: 30px 35px;
+}
+
+.homes-text{
+  margin: 5px 35px;
+  line-height: 60px;
+}
+
+.homes-text-str{
+  font-weight: bold;
+}
+
+.homes-link-box{
+  margin-left: 35px;
+}
+
+.homes-link{
+  color: #666;
+}
