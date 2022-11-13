@@ -59,19 +59,19 @@
   display: inline-block;
 }
 
-.edit-error-box{
+.error-box{
   width: 30%;
   border: 1px solid #ff0000;
   margin-bottom: 10px;
 }
 
-.edit-error-title{
+.error-title{
   padding: 2px 0 2px 15px;
   color: #fff;
   background-color: #cc0000;
 }
 
-.edit-error-comment{
+.error-comment{
   font-size: 12px;
   list-style-type: square;
   padding: 30px 0 30px 80px;
@@ -79,9 +79,9 @@
 }
 
 .field_with_errors{
-  margin-right: 1305px;
   padding: 2px;
   background-color: #ff0000;
+  display: table;
 }
 
 .edit-body-box,.edit-link-box{
@@ -98,3 +98,68 @@
   display: flex;
   flex-direction: row;
 }
+
+.index-flash{
+  color: #009900;
+  margin: 0 0 20px 35px;
+}
+
+.index-table{
+  width: 50%;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+
+.index-thead-th{
+  font-size: 13px;
+  padding-bottom: 5px;
+}
+
+.index-thead-title{
+  width: 20%;
+}
+
+.index-thead-body{
+  width: 50%;
+}
+
+.index-tbody-link-s{
+width: 6%;
+}
+
+.index-tbody-link-e{
+  width: 5%;
+}
+
+.index-tbody-link-d{
+  width: 8%;
+}
+
+.index-tbody-td{
+  font-size: 13px;
+  padding: 0 5px 7px 5px;
+}
+
+.index-tbody-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.index-tbody-body{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.new-box,.new-title-box,.new-body-box,{
+  margin-top: 10px;
+}
+
+.new-input-box{
+  margin-top: 10px;
+}
+
+.new-input{
+  width: 90px;
+  height: 22px;
+}
+
